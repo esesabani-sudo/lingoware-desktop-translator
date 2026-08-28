@@ -1,0 +1,14 @@
+# Do not edit manually
+# Default behavior
+
+*.md linguist-documentation
+src/**/*.ts linguist-detectable
+
+*.woff binary
+docs/* linguist-vendored
+*.jpg binary
+*.tsx linguist-detectable
+node_modules/* linguist-vendored
+*.svg text
+
+*.gif binary
